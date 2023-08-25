@@ -59,7 +59,7 @@ Time = <number> - The duration of the notfication.
 --- meu Botao
 
 Tab:AddButton({
-	Name = "Lucky Block, Não spammar!",
+	Name = "Lucky Block, Não spammar🎁!",
 	Callback = function()
       		game:GetService("ReplicatedStorage"):WaitForChild("SpawnLuckyBlock"):FireServer()
 
@@ -72,7 +72,7 @@ Callback = <function> - The function of the button.
 ]]
 
 Tab:AddButton({
-	Name = "Super Block, Não spammar!",
+	Name = "Super Block, Não spammar🎁!",
 	Callback = function()
       		game:GetService("ReplicatedStorage"):WaitForChild("SpawnSuperBlock"):FireServer()
 
@@ -85,7 +85,7 @@ Callback = <function> - The function of the button.
 ]]
 
 Tab:AddButton({
-	Name = "Diamond Block, Não spammar!",
+	Name = "Diamond Block, Não spammar🎁!",
 	Callback = function()
       		game:GetService("ReplicatedStorage"):WaitForChild("SpawnDiamondBlock"):FireServer() 
   	end    
@@ -97,7 +97,7 @@ Callback = <function> - The function of the button.
 ]]
 
 Tab:AddButton({
-	Name = "Rainbow Block, Não spammar!",
+	Name = "Rainbow Block, Não spammar🎁!",
 	Callback = function()
       		game:GetService("ReplicatedStorage"):WaitForChild("SpawnRainbowBlock"):FireServer()
 
@@ -110,7 +110,7 @@ Callback = <function> - The function of the button.
 ]]
 
 Tab:AddButton({
-	Name = "Galaxy Block, Não spammar!",
+	Name = "Galaxy Block, Não spammar🎁!",
 	Callback = function()
       		game:GetService("ReplicatedStorage"):WaitForChild("SpawnGalaxyBlock"):FireServer()
 
@@ -135,7 +135,7 @@ PremiumOnly = <bool> - Makes the tab accessible to Sirus Premium users only.
 ]]
 
 Tab:AddButton({
-	Name = "Voar|Fly",
+	Name = "Voar|Fly✈️",
 	Callback = function()
       		loadstring(game:HttpGet("https://raw.githubusercontent.com/XNEOFF/FlyGuiV3/main/FlyGuiV3.txt"))()
   	end    
@@ -147,7 +147,7 @@ Callback = <function> - The function of the button.
 ]]
 
 Tab:AddButton({
-	Name = "Hit Box",
+	Name = "Hit Box🗡️",
 	Callback = function()
       		local ScreenGui = Instance.new("ScreenGui")
 local main = Instance.new("Frame")
