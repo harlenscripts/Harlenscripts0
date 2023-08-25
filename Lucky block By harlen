@@ -2,7 +2,7 @@ local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shl
 
 --- Window
 
-local Window = OrionLib:MakeWindow({Name = "Discord: harlen___ V3💀", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+local Window = OrionLib:MakeWindow({Name = "Discord: Harlen Hub V3", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
 
 --[[
 Name = <string> - The name of the UI.
@@ -33,7 +33,7 @@ PremiumOnly = <bool> - Makes the tab accessible to Sirus Premium users only.
 --- Section
 
 local Section = Tab:AddSection({
-	Name = "By Harlen_Br1"
+	Name = "By Harlen_Br0"
 })
 
 --[[
@@ -44,9 +44,9 @@ Name = <string> - The name of the section.
 
 OrionLib:MakeNotification({
 	Name = "Discord: harlen___",
-	Content = "Executado, é sério que você joga Lucky Block?",
+	Content = "Executado, Harlen Hub",
 	Image = "rbxassetid://4483345998",
-	Time = 15
+	Time = 20
 })
 
 --[[
