@@ -7,7 +7,7 @@ local Window = OrionLib:MakeWindow({Name = "Harlen Hub V3", HidePremium = false,
 --- Tab
 
 local Tab = Window:MakeTab({
-	Name = "Lucky Block🎁",
+	Name = "🎁|Lucky Block",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
@@ -30,7 +30,7 @@ OrionLib:MakeNotification({
 --- meu Botao
 
 Tab:AddButton({
-	Name = "Lucky Block, Não spammar🎁!",
+	Name = "🎁 • Lucky Block, Não Spammar!",
 	Callback = function()
       		game:GetService("ReplicatedStorage"):WaitForChild("SpawnLuckyBlock"):FireServer()
 
@@ -38,7 +38,7 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
-	Name = "Super Block, Não spammar🎁!",
+	Name = "🎁 • Super Block, Não Spammar!",
 	Callback = function()
       		game:GetService("ReplicatedStorage"):WaitForChild("SpawnSuperBlock"):FireServer()
 
@@ -46,14 +46,14 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
-	Name = "Diamond Block, Não spammar🎁!",
+	Name = "🎁 • Diamond Block, Não Spammar!",
 	Callback = function()
       		game:GetService("ReplicatedStorage"):WaitForChild("SpawnDiamondBlock"):FireServer() 
   	end    
 })
 
 Tab:AddButton({
-	Name = "Rainbow Block, Não spammar🎁!",
+	Name = "🎁 • Rainbow Block, Não Spammar!",
 	Callback = function()
       		game:GetService("ReplicatedStorage"):WaitForChild("SpawnRainbowBlock"):FireServer()
 
@@ -61,7 +61,7 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
-	Name = "Galaxy Block, Não spammar🎁!",
+	Name = "🎁 • Galaxy Block, Não Spammar!",
 	Callback = function()
       		game:GetService("ReplicatedStorage"):WaitForChild("SpawnGalaxyBlock"):FireServer()
 
@@ -69,20 +69,20 @@ Tab:AddButton({
 })
 
 local Tab = Window:MakeTab({
-	Name = "Outros",
+	Name = "↩️|Outros",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
 
 Tab:AddButton({
-	Name = "Voar|Fly✈️",
+	Name = "✈️ • Voar|Fly",
 	Callback = function()
       		loadstring(game:HttpGet("https://raw.githubusercontent.com/XNEOFF/FlyGuiV3/main/FlyGuiV3.txt"))()
   	end    
 })
 
 Tab:AddButton({
-	Name = "Hit Box🗡️",
+	Name = "🗡️ • Hit Box",
 	Callback = function()
       		local ScreenGui = Instance.new("ScreenGui")
 local main = Instance.new("Frame")
