@@ -6,9 +6,11 @@ local Window = OrionLib:MakeWindow({Name = "Harlen Hub V3", HidePremium = false,
 
 --- Game Indentificar
 
-if game.PlaceId == 662417684 then
-        World1 = true
-    else game.Players.LocalPlayer:Kick("Incorrect Game")
+if game.Id == 662417684 then
+   script do jogo
+else
+     game.Players.LocalPlayer:Kick("Para de usar script em lugar errado")
+end
 
 --- Tab
 
