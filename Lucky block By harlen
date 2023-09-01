@@ -6,11 +6,9 @@ local Window = OrionLib:MakeWindow({Name = "Harlen Hub V3", HidePremium = false,
 
 --- Game Indentificar
 
-if game.Id == <662417684> then
-   loadstring(game:HttpGet("https://raw.githubusercontent.com/harlenscripts/Harlenscripts0/main/Lucky%20block%20By%20harlen"))()
-else
-     game.Players.LocalPlayer:Kick("This Incorrect Game")
-end
+if game.PlaceId == 662417684 then
+        World1 = true
+    else game.Players.LocalPlayer:Kick("Incorrect Game")
 
 --- Tab
 
