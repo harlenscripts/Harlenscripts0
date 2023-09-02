@@ -1,1 +1,91 @@
-([[This file was protected with MoonSec V3 by federal9999 on discord]]):gsub('.+', (function(a) _zRVvIOOLuXwK = a; end)); return(function(h,...)local t;local r;local l;local d;local j;local o;local e=24915;local n=0;local f={};while n<603 do n=n+1;while n<0x2b6 and e%0xd90<0x6c8 do n=n+1 e=(e-915)%30855 local p=n+e if(e%0x1c3c)>=0xe1e then e=(e-0x2e2)%0x6bf6 while n<0xdf and e%0x3f48<0x1fa4 do n=n+1 e=(e*303)%48751 local d=n+e if(e%0x8fe)>0x47f then e=(e-0x388)%0x8398 local e=8337 if not f[e]then f[e]=0x1 t=string;end elseif e%2~=0 then e=(e*0x3ed)%0x773f local e=61539 if not f[e]then f[e]=0x1 r=getfenv and getfenv();end else e=(e+0x323)%0x4560 n=n+1 local e=85091 if not f[e]then f[e]=0x1 j=tonumber;end end end elseif e%2~=0 then e=(e-0x1fc)%0x8111 while n<0x6f and e%0x4cc8<0x2664 do n=n+1 e=(e*152)%112 local d=n+e if(e%0x2e04)>0x1702 then e=(e*0x3c4)%0x7378 local e=2021 if not f[e]then f[e]=0x1 end elseif e%2~=0 then e=(e+0x2d5)%0xa07f local e=76236 if not f[e]then f[e]=0x1 end else e=(e-0x247)%0x321b n=n+1 local e=92966 if not f[e]then f[e]=0x1 r=(not r)and _ENV or r;end end end else e=(e*0x2d)%0x3ce9 n=n+1 while n<0xef and e%0x1fa0<0xfd0 do n=n+1 e=(e*349)%24747 local p=n+e if(e%0x2632)<=0x1319 then e=(e-0x2bc)%0xf3f local e=60039 if not f[e]then f[e]=0x1 l="\4\8\116\111\110\117\109\98\101\114\66\119\68\68\101\105\70\89\0\6\115\116\114\105\110\103\4\99\104\97\114\74\75\87\87\70\67\74\83\0\6\115\116\114\105\110\103\3\115\117\98\81\72\83\70\104\108\106\82\0\6\115\116\114\105\110\103\4\98\121\116\101\117\98\119\116\67\74\68\67\0\5\116\97\98\108\101\6\99\111\110\99\97\116\118\111\80\84\72\116\104\97\0\5\116\97\98\108\101\6\105\110\115\101\114\116\101\77\121\110\67\87\73\76\5";end elseif e%2~=0 then e=(e+0x22c)%0x7063 local e=75025 if not f[e]then f[e]=0x1 d=function(d)local e=0x01 local function f(n)e=e+n return d:sub(e-n,e-0x01)end while true do local n=f(0x01)if(n=="\5")then break end local e=t.byte(f(0x01))local e=f(e)if n=="\2"then e=o.BwDDeiFY(e)elseif n=="\3"then e=e~="\0"elseif n=="\6"then r[e]=function(e,
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+
+--- Window
+
+local Window = OrionLib:MakeWindow({Name = "Harlen Hub V3", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+
+--- Tab
+
+local Tab = Window:MakeTab({
+	Name = "🎁┃Lucky Block",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+--- Section
+
+local Section = Tab:AddSection({
+	Name = "By Harlen_Br0"
+})
+
+--- Notifier
+
+OrionLib:MakeNotification({
+	Name = "Discord: harlen___",
+	Content = "Executed, Harlen Hub",
+	Image = "rbxassetid://4483345998",
+	Time = 20
+})
+
+--- meu Botao
+
+Tab:AddButton({
+	Name = "🎁 • Lucky Block, Don't Spam!",
+	Callback = function()
+      		game:GetService("ReplicatedStorage"):WaitForChild("SpawnLuckyBlock"):FireServer()
+
+  	end    
+})
+
+Tab:AddButton({
+	Name = "🎁 • Super Block, Don't Spam!",
+	Callback = function()
+      		game:GetService("ReplicatedStorage"):WaitForChild("SpawnSuperBlock"):FireServer()
+
+  	end    
+})
+
+Tab:AddButton({
+	Name = "🎁 • Diamond Block, Don't Spam!",
+	Callback = function()
+      		game:GetService("ReplicatedStorage"):WaitForChild("SpawnDiamondBlock"):FireServer() 
+  	end    
+})
+
+Tab:AddButton({
+	Name = "🎁 • Rainbow Block, Don't Spam!",
+	Callback = function()
+      		game:GetService("ReplicatedStorage"):WaitForChild("SpawnRainbowBlock"):FireServer()
+
+  	end    
+})
+
+Tab:AddButton({
+	Name = "🎁 • Galaxy Block, Don't Spam!",
+	Callback = function()
+      		game:GetService("ReplicatedStorage"):WaitForChild("SpawnGalaxyBlock"):FireServer()
+
+  	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "↩️┃Others",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+	Name = "✈️ • Fly",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/XNEOFF/FlyGuiV3/main/FlyGuiV3.txt"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "🗡️ • Hit Box",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/harlenscripts/HitBox/main/hitbox0"))()
+  	end    
+})
+
+OrionLib:Init()
