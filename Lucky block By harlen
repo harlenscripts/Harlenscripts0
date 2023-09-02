@@ -107,4 +107,19 @@ Tab:AddButton({
   	end    
 })
 
+Tab:AddSlider({
+    Name = "Velocidade",
+    Min = 1,
+    Max = 100,
+    Default = 50,
+    Color = Color3.fromRGB(255, 255, 255),
+    ValueName = "velocidade",
+    Callback = function(Value)
+        local humanoid = game.Players.LocalPlayer.Character:FindFirstChild("Humanoid")
+        if humanoid then
+            humanoid.WalkSpeed = Value
+        end
+    end
+})
+
 OrionLib:Init()
