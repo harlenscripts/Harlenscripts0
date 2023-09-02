@@ -68,25 +68,6 @@ Tab:AddButton({
   	end    
 })
 
-Tab:AddButton({
-	Name = "🎁 • Galaxy Block, Don't Spam!",
-	Callback = function(fly)
-local player = game.Players.LocalPlayer
-local flying = false
-
-local targetPosition = Vector3.new(10, 50, 10) 
-
-local function fly()
-    if not flying then
-        flying = true
-        player.Character:MoveTo(targetPosition)
-    end
-end
-
-button.MouseButton1Click:Connect(fly)
-  	end    
-})
-
 local Tab = Window:MakeTab({
 	Name = "↩️┃Others",
 	Icon = "rbxassetid://4483345998",
