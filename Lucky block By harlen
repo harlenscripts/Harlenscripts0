@@ -7,7 +7,7 @@ local Window = OrionLib:MakeWindow({Name = "Harlen Hub V3", HidePremium = false,
 --- Tab
 
 local Tab = Window:MakeTab({
-	Name = "🎁|Lucky Block",
+	Name = "🎁┃Lucky Block",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
@@ -22,7 +22,7 @@ local Section = Tab:AddSection({
 
 OrionLib:MakeNotification({
 	Name = "Discord: harlen___",
-	Content = "Executado, Harlen Hub",
+	Content = "Executed, Harlen Hub",
 	Image = "rbxassetid://4483345998",
 	Time = 20
 })
@@ -30,7 +30,7 @@ OrionLib:MakeNotification({
 --- meu Botao
 
 Tab:AddButton({
-	Name = "🎁 • Lucky Block, Não Spammar!",
+	Name = "🎁 • Lucky Block, Don't Spam!",
 	Callback = function()
       		game:GetService("ReplicatedStorage"):WaitForChild("SpawnLuckyBlock"):FireServer()
 
@@ -38,7 +38,7 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
-	Name = "🎁 • Super Block, Não Spammar!",
+	Name = "🎁 • Super Block, Don't Spam!",
 	Callback = function()
       		game:GetService("ReplicatedStorage"):WaitForChild("SpawnSuperBlock"):FireServer()
 
@@ -46,14 +46,14 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
-	Name = "🎁 • Diamond Block, Não Spammar!",
+	Name = "🎁 • Diamond Block, Don't Spam!",
 	Callback = function()
       		game:GetService("ReplicatedStorage"):WaitForChild("SpawnDiamondBlock"):FireServer() 
   	end    
 })
 
 Tab:AddButton({
-	Name = "🎁 • Rainbow Block, Não Spammar!",
+	Name = "🎁 • Rainbow Block, Don't Spam!",
 	Callback = function()
       		game:GetService("ReplicatedStorage"):WaitForChild("SpawnRainbowBlock"):FireServer()
 
@@ -61,7 +61,7 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
-	Name = "🎁 • Galaxy Block, Não Spammar!",
+	Name = "🎁 • Galaxy Block, Don't Spam!",
 	Callback = function()
       		game:GetService("ReplicatedStorage"):WaitForChild("SpawnGalaxyBlock"):FireServer()
 
@@ -69,7 +69,7 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
-	Name = "🎁 • Galaxy Block, Não Spammar!",
+	Name = "🎁 • Galaxy Block, Don't Spam!",
 	Callback = function(fly)
 local player = game.Players.LocalPlayer
 local flying = false
@@ -88,13 +88,13 @@ button.MouseButton1Click:Connect(fly)
 })
 
 local Tab = Window:MakeTab({
-	Name = "↩️|Outros",
+	Name = "↩️┃Others",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
 
 Tab:AddButton({
-	Name = "✈️ • Voar|Fly",
+	Name = "✈️ • Fly",
 	Callback = function()
       		loadstring(game:HttpGet("https://raw.githubusercontent.com/XNEOFF/FlyGuiV3/main/FlyGuiV3.txt"))()
   	end    
@@ -105,21 +105,6 @@ Tab:AddButton({
 	Callback = function()
       		loadstring(game:HttpGet("https://raw.githubusercontent.com/harlenscripts/HitBox/main/hitbox0"))()
   	end    
-})
-
-Tab:AddSlider({
-    Name = "Velocidade",
-    Min = 1,
-    Max = 100,
-    Default = 50,
-    Color = Color3.fromRGB(255, 255, 255),
-    ValueName = "velocidade",
-    Callback = function(Value)
-        local humanoid = game.Players.LocalPlayer.Character:FindFirstChild("Humanoid")
-        if humanoid then
-            humanoid.WalkSpeed = Value
-        end
-    end
 })
 
 OrionLib:Init()
